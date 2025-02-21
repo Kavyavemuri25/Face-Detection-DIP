@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to top left, #000066 0%, #66ccff 100%);
+}
+
+.container{
+  padding-top: 100px;
+  margin-top: 100px;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 100px;
+  padding: 100px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 100px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 100px;
+  text-align: center;
+  background-color: grey;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */

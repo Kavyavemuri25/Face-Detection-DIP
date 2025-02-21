@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Team Members</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+</head>
+<body style="background-color: black;">
+	<h3 style="text-align: center; color:white; padding-top: 50px;">GROUP-19 TEAM MEMBERS</h3>
+	<div class="container" style="padding-top: 20px; padding-left: 80px;">
+<center>
+	<div class="row">
+		<div class="column" style="padding: 50px;">
+			<div class="card" style="max-width: 18rem;">
+				<center>
+				<img src={{ url_for('static', filename="namratha.jpeg") }} alt="Avatar" style="width:230px;height:300px;" class="card-img-top" alt="...">
+			</center>
+			<div class="card-body">
+	        <h4 class="card-title">Namratha Nadh</h5>
+	        <h5 class="card-text">EDM18B021</p>
+	      </div>
+			</div>
+	  </div>
+  <div class="column" style="padding: 50px;">
+		<div class="card" style="max-width: 18rem;">
+			<center>
+			<img src={{ url_for('static', filename="silpa.jpeg") }} alt="Avatar" style="width:230px;height:300px;" class="card-img-top" alt="...">
+		</center>
+		<div class="card-body">
+        <h4 class="card-title">Sri Shilpa Roy</h5>
+        <h5 class="card-text">CED18I013</p>
+      </div>
+		</div>
+  </div>
+  <div class="column" style="padding: 50px;">
+		<div class="card" style="max-width: 18rem;">
+			<center>
+			<img src={{ url_for('static', filename="srinivas.jpeg") }} alt="Avatar" style="width:230px;height:300px;" class="card-img-top" alt="...">
+		</center>
+			<div class="card-body">
+        <h4 class="card-title">GM Srinivas</h5>
+        <h5 class="card-text">COE18B022</p>
+      </div>
+		</div>
+  </div>
+
+</div>
+</center>
+</div>
+
+	</body>
+</html>
